@@ -1,0 +1,6 @@
+Pages a 8KB which equal to 2^13 bytes.
+And our machine has 16 bit addresses.
+
+Therefore, 16 - 13 = 3, 2^3 = 8 virtual pages (entries) in the page table.
+
+Answer: 8.

@@ -1,0 +1,1 @@
+Program uses virtual addresses which stores at table and correspond to real physical address at the system.
