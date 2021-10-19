@@ -1,0 +1,6 @@
+Hit/Miss ratio: 0.010091
+Hit/Miss ratio: 0.048168
+Hit/Miss ratio: 0.098793
+
+To decrease Hit/Miss ratio we need to increase the number of pages that we access for some constant time.
+More pages => more heats => the ratio will increase
