@@ -1,0 +1,9 @@
+..
+Succhi_Molodez.txt
+main.c
+lost+found
+.
+ex2.txt
+a.out
+lib64
+lib
