@@ -1,0 +1,50 @@
+Deadlock has the following prerequisites: 
+1 Mutual exclusion: a resource can only be used by one process at a time. 
+2 Hold and Wait: a process that has at least one resource is waiting for other processes to release resources that they have. 
+3 There is no preemption: a resource can only be released voluntarily by the process that is holding it when it has completed its duty. 
+4 A loop in the waiting-request graph is referred to as a circular wait.
+
+
+Deadlock Prevention
+
+The construction of a system that writes programs in such a way that a deadlock cannot occur in any way is known as deadlock prevention. 
+
+Advantages: 
+• The system does not require information on how each resource is used in each process; 
+• The system does not require all of the details of all resources available and requested. 
+
+Disadvantages: 
+• It necessitates a long period of waiting; 
+• It makes inefficient use of given resources; 
+• It is frequently impossible to accomplish.
+
+
+Deadlock avoidance
+
+The goal for deadlock avoidance is to the system must not enter an unsafe state (leading to the deadlock). Banker's algorithm, Wait/Die, Wound/Wait, and other deadlock avoidance approaches are examples. 
+For deadlock avoidance, the resource allocation approach chooses a middle ground between detection and prevention. 
+
+Advantages:
+• There is no preemption.
+
+Disadvantages:
+• Deadlock avoidance is frequently tough to accomplish. 
+• The system must have complete knowledge of how each resource is used in each process. 
+• It must be aware of the amount and kind of all resources available, as well as those requested, at all times. 
+• Processes can be halted for an extended period of time. 
+• Allocation of a set number of resources.
+
+
+Deadlock detection
+
+The purpose of deadlock detection is to identify a stalemate either after it has occurred or before it has occurred. 
+
+Advantages:
+• The system does not require information on how each resource is used in each process; • The system does not require all of the details of all resources available and requested. 
+• The resource allocation strategy for detecting deadlocks is quite liberal. Requests for resources are approved. 
+• There is evidence of preemption. 
+
+Disadvantages: 
+• Must be used on a regular basis to check for deadlock. 
+• Preemption losses that are unavoidable.
+
